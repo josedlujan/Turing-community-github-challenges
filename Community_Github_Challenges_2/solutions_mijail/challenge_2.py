@@ -1,3 +1,6 @@
+##### Challenge 2 #####
+
+
 class Even:
     def __init__(self):
         print("Welcome!")
@@ -7,20 +10,20 @@ class Even:
     def range_pairs(self, start, end):
         """ The function returns a list of all even numbers in range x and y. """
 
-        # If the second parameter is less than the first then the values ​​​​will be inverted
+        # If the second parameter is less than the first then the values ​​​​will be inverted.
         if start > end:
             start, end = end, start
 
         pairs = []
         for number in range(start, end):
-            # Check if the number is pair with bitwise AND
+            # Checks if the number is pair with bitwise AND.
             if number & 1 == 0:
                 pairs.append(number)
 
-        # Uncomment the next line if the output must be a string
+        # Uncomment the next line if the output must be a string.
         # return ",".join(str(pair) for pair in pairs) 
 
-        # Comment or delete the next line if the output must be a string like: 10,12,14,16,18
+        # Comment or delete the next line if the output must be a string like: 10,12,14,16,18.
         return pairs
 
 
