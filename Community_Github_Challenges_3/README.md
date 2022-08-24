@@ -12,7 +12,7 @@ The function should return a tuple with all the keys of dictionary a that are no
 ### Example
 - dicc_a = {'a':1,'b':2,'c':3}
 - dicc_b = {'a':1,'b':2,'d':9}
--left_keys(dicc_a,dicc_b)
+- left_keys(dicc_a,dicc_b)
 result= ('c', )
 
 #### Notes
