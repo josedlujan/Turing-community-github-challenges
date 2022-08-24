@@ -20,7 +20,7 @@ result= ('c', )
 
 # Sum of even numbers *Challenge 2*
 
-Write a function in Python that allows you to add even numbers.
+Write a function that allows you to add even numbers.
 The function must have the name sum_pairs.
 The function must receive as an argument a list of integers.
 The function must return the sum of all positive even numbers in the list.
