@@ -1,0 +1,28 @@
+<?php 
+
+function left_keys($a,$b){
+	$tuple=[]; 
+	foreach ($a as $key1 => $tuple1) {
+		$avl = (!array_key_exists($key1,$b)) ? array_push($tuple,$key1):'';			
+	}
+	return $tuple;
+}
+
+function sum($list){
+	$sum = 0;
+	foreach ($list as $value) {
+			$sum += ($value%2==0)? $value:0;
+	}
+	return $sum;
+}
+
+
+$dicc_a = ['a'=>1,'b'=>2,'c'=>3];
+$dicc_b = ['a'=>1,'b'=>2,'d'=>9];
+
+print_r(left_keys($dicc_a,$dicc_b));
+
+print_r(sum([1,2,3,4,5,6,7,8,9,10,12]));
+print_r(sum([2,2,2,5,4,2]));
+print_r(sum([2,1,3,5,6,10]));
+?>
