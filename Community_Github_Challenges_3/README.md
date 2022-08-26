@@ -28,7 +28,7 @@ The function must return the sum of all positive even numbers in the list.
 ### Example
 - sum(1,2,3,4,5,6,7,8,9,10,12) = 42
 - sum(2,2,2,5,4,2) = 12
-- sum(2,1,3,5,6,10) = 12
+- sum(2,1,3,5,6,10) = 18
 
 #### Notes
 - No notes
